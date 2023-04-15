@@ -39,7 +39,7 @@ export default function Home() {
               Problem Solver, Creative and Enthusiast
             </h3>
             <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-l mx-auto dark:text-white'>
-              Moin! I'm Anna from Hamburg and I'm currently a M.Sc. Computer Science student at Aarhus University. <br /> Have a look around to see what I'm up to!
+              Moin! I&apos;m Anna from Hamburg and I&apos;m currently a M.Sc. Computer Science student at Aarhus University. <br /> Have a look around to see what I&apos;m up to!
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-white">
@@ -57,7 +57,7 @@ export default function Home() {
               Education and Projects
             </h3>
             <p className='text-md py-2 leading-8 text-gray-800 dark:text-white'>
-              In my Master's degree, I am focusing on Data Science and Human Computer Interaction and am now writing my Master thesis in <span className='text-purple-800'>Data Visualization</span>. Courses I especially enjoyed during my studies are  <span className='text-purple-800'>Data mining, Data Visualization, Project Management, Interaction Design and Software Engineering </span>. I also had the opportunity to explore other areas such as Cryptology, Augmented Reality and Graph Theory. In the following, you can see a selection of projects I have worked on. 
+              In my Master&apos;s degree, I am focusing on Data Science and Human Computer Interaction and am now writing my Master&apos;s thesis in <span className='text-purple-800'>Data Visualization</span>. Courses I especially enjoyed during my studies are  <span className='text-purple-800'>Data mining, Data Visualization, Project Management, Interaction Design and Software Engineering </span>. I also had the opportunity to explore other areas such as Cryptology, Augmented Reality and Graph Theory. In the following, you can see a selection of projects I have worked on. 
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-6 gap-y-10">
@@ -65,7 +65,7 @@ export default function Home() {
               {/* <Image className="align-middle"src={erasmus} width={500} height={300}/> */}
               <h3 className="text-xl font-medium pt-8 pb-2 dark:text-white">Visualization for Reading</h3>
               <p className='dark:text-white'>
-              Currently, I am working on my Master's thesis in Data Visualization, integrating visualization to help navigate long documents and facilitate different reading styles. 
+              Currently, I am working on my Master&apos;s thesis in Data Visualization, integrating visualization to help navigate long documents and facilitate different reading styles. 
               </p>
               <h4 className='text-purple-800 py-4 dark:text-purple-200'>Languages/Frameworks</h4>
               <p className='text-gray-800 py-1 dark:text-white'>Typescript</p>
@@ -76,7 +76,7 @@ export default function Home() {
               <Image className="align-middle"src={erasmus} width={500} height={300}/>
               <h3 className="text-xl font-medium pt-8 pb-2 dark:text-white">Data Visualization of Erasmus Mobility</h3>
               <p className='dark:text-white'>
-              For the Data Visualization course in my Master's, my group developed a visualization showing expected versus real mobility for Erasmus exchanges.
+              For the Data Visualization course in my Master&apos;s, my group developed a visualization showing expected versus real mobility for Erasmus exchanges.
               </p>
               <h4 className='text-purple-800 py-4 dark:text-purple-200'>Languages/Frameworks</h4>
               <p className='text-gray-800 py-1 dark:text-white'>Javascript</p>
@@ -87,7 +87,7 @@ export default function Home() {
               <Image src={mia} width={125} height={125}/>
               <h3 className="text-xl font-medium pt-8 pb-2 dark:text-white">Bots for Dice Game</h3>
               <p className='dark:text-white'>
-              In 2020, I participated in the Digital Innovation Challenge of the German Informatics Society ("Gesellschaft für Informatik") where we constructed bots to play the dice game Mia using both explicit and machine learning strategies.
+              In 2020, I participated in the Digital Innovation Challenge of the German Informatics Society (&quot;Gesellschaft für Informatik&quot;) where we constructed bots to play the dice game Mia using both explicit and machine learning strategies.
               </p>
               <h4 className='text-purple-800 py-4 dark:text-purple-200'>Languages/Frameworks</h4>
               <p className='text-gray-800 py-1 dark:text-white'>Python</p>

@@ -10,4 +10,6 @@ module.exports = {
   images: {
     unoptimized: true,
   },
+  basePath: "/personal-website",
+  assetPrefix:"/personal-website"
 }

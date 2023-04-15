@@ -11,7 +11,7 @@ import annalogie from "../../public/logo.png"
 import {useState} from "react";
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
-  const prefix = "/personal-website/out"
+  const prefix = "/personal-website"
   return (
     <>
     <div className={darkMode ? 'dark' : ""}>

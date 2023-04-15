@@ -2,12 +2,12 @@ import Head from 'next/head'
 import {BsFillMoonStarsFill} from 'react-icons/bs'
 import {AiFillLinkedin, AiFillGithub} from 'react-icons/ai'
 import Image from "next/legacy/image"
-import anna from "/personal-website/../../public/anna-bewerbungsbild.jpg"
+import anna from "/personal-website/anna-bewerbungsbild.jpg"
 import design from "../../public/design.png"
-import erasmus from "/personal-website/../../public/erasmus_viz.png"
+import erasmus from "/personal-website/public/erasmus_viz.png"
 import code from "../../public/code.png"
-import mia from "/personal-website/../../public/team-duckling.jpg"
-import annalogie from "/personal-website/../../public/logo.png"
+import mia from "/personal-website//team-duckling.jpg"
+import annalogie from "/personal-website/logo.png"
 import {useState} from "react";
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);

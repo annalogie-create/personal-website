@@ -2,12 +2,12 @@ import Head from 'next/head'
 import {BsFillMoonStarsFill} from 'react-icons/bs'
 import {AiFillLinkedin, AiFillGithub} from 'react-icons/ai'
 import Image from "next/legacy/image"
-import anna from "/anna-bewerbungsbild.jpg"
-import design from "../../public/design.png"
-import erasmus from "/erasmus_viz.png"
-import code from "../../public/code.png"
-import mia from "/team-duckling.jpg"
-import annalogie from "/logo.png"
+// import anna from "/anna-bewerbungsbild.jpg"
+// import design from "../../public/design.png"
+// import erasmus from "/erasmus_viz.png"
+// import code from "../../public/code.png"
+// import mia from "/team-duckling.jpg"
+// import annalogie from "/logo.png"
 import {useState} from "react";
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -48,7 +48,7 @@ export default function Home() {
               <a href="https://github.com/annalogie-create"><AiFillGithub/></a> 
           </div>
           <div className='relative mx-auto rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96'>
-            <Image src={prefix + anna} fill="fill" className='object-cover'/>
+            <Image src={prefix + "/anna-bewerbungsbild.jpg"} layout="fill" className='object-cover'/>
           </div>
         </section>
         {/* Card System */}
@@ -74,7 +74,7 @@ export default function Home() {
               <p className='text-gray-800 py-1 dark:text-white'>d3.js</p>
             </div>
             <div className='text-center content-center shadow-lg p-10 rounded-xl my-10 bg-purple-100 dark:bg-purple-900 basis-2/5'>
-              <Image className="align-middle"src={prefix + erasmus} width={500} height={300}/>
+              <Image className="align-middle"src={prefix + "/erasmus_viz.png"} width={500} height={300}/>
               <h3 className="text-xl font-medium pt-8 pb-2 dark:text-white">Data Visualization of Erasmus Mobility</h3>
               <p className='dark:text-white'>
               For the Data Visualization course in my Master&apos;s, my group developed a visualization showing expected versus real mobility for Erasmus exchanges.
@@ -85,7 +85,7 @@ export default function Home() {
               <p className='text-gray-800 py-1 dark:text-white'>Python</p>
             </div>
             <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-purple-100 dark:bg-purple-900 basis-2/5'>
-              <Image src={prefix + mia} width={125} height={125}/>
+              <Image src={prefix + "/team-duckling.jpg"} width={125} height={125}/>
               <h3 className="text-xl font-medium pt-8 pb-2 dark:text-white">Bots for Dice Game</h3>
               <p className='dark:text-white'>
               In 2020, I participated in the Digital Innovation Challenge of the German Informatics Society (&quot;Gesellschaft für Informatik&quot;) where we constructed bots to play the dice game Mia using both explicit and machine learning strategies.
@@ -94,7 +94,7 @@ export default function Home() {
               <p className='text-gray-800 py-1 dark:text-white'>Python</p>
             </div>
             <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-purple-100 dark:bg-purple-900 basis-2/5'>
-              <Image src={prefix + annalogie} width={600} height={200}/>
+              <Image src={prefix + "/logo.png"} width={600} height={200}/>
               <h3 className="text-xl font-medium pt-8 pb-2 dark:text-white">Blog Annalogie</h3>
               <p className='dark:text-white'>
               I have my own blog and website <a href="https://www.annalogie.com/"><span>Annalogie</span></a>where I share tips for productivity and organization but also books and other things that interest me (in German). 

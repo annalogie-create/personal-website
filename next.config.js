@@ -11,5 +11,5 @@ module.exports = {
     unoptimized: true,
   },
   basePath: process.env.NEXT_PUBLIC_BASE_PATH,
-  assetPrefix: '/personal-website'
+  assetPrefix: '/personal-website/'
 }

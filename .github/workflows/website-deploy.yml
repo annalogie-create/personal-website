@@ -27,7 +27,7 @@ jobs:
     - run: npm ci
     - run: npm run build 
       env:
-        NEXT_PUBLIC_BASE_PATH: /personal-website/
+        NEXT_PUBLIC_BASE_PATH: /personal-website
         NEXT_PUBLIC_ASSET_PREFIX: /personal-website/
     - run: npm run export
       env:

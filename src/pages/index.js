@@ -11,7 +11,7 @@ import Image from "next/legacy/image"
 import {useState} from "react";
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
-  const prefix = process.env.NEXT_PUBLIC_BASE_PATH || ''
+  const prefix = ''
   return (
     <>
     <div className={darkMode ? 'dark' : ""}>

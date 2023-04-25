@@ -26,7 +26,7 @@ export default function Home() {
           <nav className=" py-10 mb-12 flex justify-between">
             <h1 className="text-xl ml-8 font-raleway dark:text-white"></h1>
             <ul className="flex items-center">
-              <li><BsFillMoonStarsFill onClick={()=> setDarkMode(!darkMode)} className="dark:text-white cursor-pointer text-2xl "/></li>
+              <li><BsFillMoonStarsFill onClick={()=> setDarkMode(!darkMode)} className="text-black dark:text-white cursor-pointer text-2xl "/></li>
               <li>
                 <a className="bg-gradient-to-r from-purple-800 to-purple-500 text-white px-4 py-2 rounded-2xl ml-8 mr-8 dark:text-white" href="https://www.annalogie.com/">Blog</a>
                 </li>
@@ -54,7 +54,7 @@ export default function Home() {
         {/* Card System */}
         <section>
           <div >
-            <h3 className="text-3xl py-1 dark:text-white">
+            <h3 className="text-3xl py-1 text-black dark:text-white">
               Education and Projects
             </h3>
             <p className='text-md py-2 leading-8 text-gray-800 dark:text-white'>
@@ -64,8 +64,8 @@ export default function Home() {
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-6 gap-y-10">
           <div className='text-center content-center shadow-lg p-10 rounded-xl my-10 bg-purple-100 dark:bg-purple-900 basis-2/5'>
               {/* <Image className="align-middle"src={erasmus} width={500} height={300}/> */}
-              <h3 className="text-xl font-medium pt-8 pb-2 dark:text-white">Visualization for Reading</h3>
-              <p className='dark:text-white'>
+              <h3 className="text-xl font-medium pt-8 pb-2 text-black dark:text-white">Visualization for Reading</h3>
+              <p className='text-black dark:text-white'>
               Currently, I am working on my Master&apos;s thesis in Data Visualization, integrating visualization to help navigate long documents and facilitate different reading styles. 
               </p>
               <h4 className='text-purple-800 py-4 dark:text-purple-200'>Languages/Frameworks</h4>
@@ -75,8 +75,8 @@ export default function Home() {
             </div>
             <div className='text-center content-center shadow-lg p-10 rounded-xl my-10 bg-purple-100 dark:bg-purple-900 basis-2/5'>
               <Image className="align-middle"src={prefix + "/erasmus_viz.png"} width={500} height={300}/>
-              <h3 className="text-xl font-medium pt-8 pb-2 dark:text-white">Data Visualization of Erasmus Mobility</h3>
-              <p className='dark:text-white'>
+              <h3 className="text-xl font-medium pt-8 pb-2 text-black dark:text-white">Data Visualization of Erasmus Mobility</h3>
+              <p className='text-black dark:text-white'>
               For the Data Visualization course in my Master&apos;s, my group developed a visualization showing expected versus real mobility for Erasmus exchanges.
               </p>
               <h4 className='text-purple-800 py-4 dark:text-purple-200'>Languages/Frameworks</h4>
@@ -86,8 +86,8 @@ export default function Home() {
             </div>
             <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-purple-100 dark:bg-purple-900 basis-2/5'>
               <Image src={prefix + "/team-duckling.jpg"} width={125} height={125}/>
-              <h3 className="text-xl font-medium pt-8 pb-2 dark:text-white">Bots for Dice Game</h3>
-              <p className='dark:text-white'>
+              <h3 className="text-xl text-black font-medium pt-8 pb-2 dark:text-white">Bots for Dice Game</h3>
+              <p className='text-black dark:text-white'>
               In 2020, I participated in the Digital Innovation Challenge of the German Informatics Society (&quot;Gesellschaft für Informatik&quot;) where we constructed bots to play the dice game Mia using both explicit and machine learning strategies.
               </p>
               <h4 className='text-purple-800 py-4 dark:text-purple-200'>Languages/Frameworks</h4>
@@ -95,8 +95,8 @@ export default function Home() {
             </div>
             <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-purple-100 dark:bg-purple-900 basis-2/5'>
               <Image src={prefix + "/logo.png"} width={600} height={200}/>
-              <h3 className="text-xl font-medium pt-8 pb-2 dark:text-white">Blog Annalogie</h3>
-              <p className='dark:text-white'>
+              <h3 className="text-xl font-medium pt-8 pb-2 text-black dark:text-white">Blog Annalogie</h3>
+              <p className='text-black dark:text-white'>
               I have my own blog and website <a href="https://www.annalogie.com/"><span>Annalogie</span></a>where I share tips for productivity and organization but also books and other things that interest me (in German). 
               </p>
               <h4 className='text-purple-800 py-4 dark:text-purple-200'>Languages/Frameworks</h4>
@@ -105,8 +105,8 @@ export default function Home() {
             </div>
             <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-purple-100 dark:bg-purple-900 basis-2/5'>
               {/* <Image src={annalogie} width={600} height={200}/> */}
-              <h3 className="text-xl font-medium pt-8 pb-2 dark:text-white">Personal Website</h3>
-              <p className='dark:text-white'>
+              <h3 className="text-xl font-medium text-black pt-8 pb-2 dark:text-white">Personal Website</h3>
+              <p className='text-black dark:text-white'>
               With this website I mainly wanted to try out tailwind.css to make my websites more responsive. 
               </p>
               <h4 className='text-purple-800 py-4 dark:text-purple-200'>Languages/Frameworks</h4>
@@ -116,8 +116,8 @@ export default function Home() {
           </div>
         </section>
         <section>
-        <h2 className="text-2xl text-center font-medium pt-8 pb-4 dark:text-white">Get in touch!</h2>
-              <p className='dark:text-white pb-32 text-center'>
+        <h2 className="text-2xl text-black text-center font-medium pt-8 pb-4 dark:text-white">Get in touch!</h2>
+              <p className='text-black dark:text-white pb-32 text-center'>
                 Feel free to contact me on <a href="https://www.linkedin.com/in/anna-schierholz/"><span className='text-purple-800'>LinkedIn</span></a> or shoot me an <a href="mailto:annamaria.schierholz@gmail.com"><span className='text-purple-800'>email</span></a>.
               </p>
         </section>
